@@ -1,0 +1,79 @@
+h1= title
+p Welcome to #{title}
+
+.header
+  div
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.brand(href='#') Backbone Directory
+          .nav-collapse
+            ul.nav
+              li.active
+                a(href='#') Home
+              li
+                a(href='#contact') Contact
+            form#searchForm.navbar-search.pull-right.dropdown
+              input#searchText.search-query.dropdown-toggle(type='text', placeholder='Search')
+              ul.dropdown-menu
+.container
+  .row
+    #content.class(span12='span12') "
+     div
+        .hero-unit(style='height: 260px;')
+          h2 Welcome to Backbone Directory !
+          p  
+          img(src='/images/logo.png', alt='', width='300', height='200', style='float: left;')
+          p(style='padding-top: 50px; padding-left: 340px;')
+            | This is a sample app that demonstrates how to build applications
+            | with
+            a(href='http://documentcloud.github.com/backbone/') Backbone.js
+            | and
+            a(href='http://twitter.github.com/bootstrap/') Twitter Bootstrap
+            | .
+            br
+            br
+            a.btn.btn-primary.btn-large(href='http://coenraets.org') Learn more »
+        .row
+          .span4
+            h2 Try It
+            p
+              | Enter a few characters in the Search Box in the upper right corner of the screen, and select an employee. In
+              | the Employee view, you can navigate up and down the Org Chart by clicking either the Manager link,
+              | or one of the Direct Reports in the sidebar on the right of the screen.
+            p
+              a#showMeBtn.btn(href='#') Show Me »
+          .span4
+            h2 Get It
+            p
+              | The source code for this application is maintained in
+              a(href='https://github.com/ccoenraets/backbone-directory') this repository
+              | on GitHub. In addition
+              | to the Backbone.js- and Twitter Bootstrap-powered client, the repository includes two versions of the
+              | back-end services: a Java and a PHP implementation.
+            p
+              a.btn(href='https://github.com/ccoenraets/backbone-directory/zipball/master') Download »
+          .span4
+            h2 Share It
+            p
+              | If you think this sample is helpful, let other people know about it...
+              br
+            p
+              iframe.twitter-share-button.twitter-count-horizontal(allowtransparency='true', frameborder='0', scrolling='no', src='http://platform.twitter.com/widgets/tweet_button.1329256447.html#_=1329363725184&_version=2&count=horizontal&enableNewSizing=true&id=twitter-widget-0&lang=en&original_referer=http%3A%2F%2Fcoenraets.org%2Fdirectory%2F&size=l&text=Backbone.js%20and%20Twitter%20Bootstrap%20Sample%20App&url=http%3A%2F%2Fcoenraets.org%2Fdirectory%2F&via=ccoenraets', style='width: 108px; height: 28px;', title='Twitter Tweet Button', data-resized='true')
+            p
+              #___plusone_0(style='height: 20px; width: 90px; display: inline-block; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial;')
+                iframe#I1_1329363725596(allowtransparency='true', frameborder='0', hspace='0', marginheight='0', marginwidth='0', name='I1_1329363725596', scrolling='no', src='https://plusone.google.com/_/+1/fastbutton?url=http%3A%2F%2Fcoenraets.org%2Fdirectory%2F&size=medium&count=true&hl=en-US&jsh=m%3B%2F_%2Fapps-static%2F_%2Fjs%2Fgapi%2F__features__%2Frt%3Dj%2Fver%3DDD_ff52ufs8.en_US.%2Fsv%3D1%2Fam%3D!RERB5bJyvtSIVCfJNg%2Fd%3D1%2F#id=I1_1329363725596&parent=http%3A%2F%2Fcoenraets.org&rpctoken=594246954&_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart', style='width: 90px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; height: 20px; position: static; left: 0px; top: 0px; visibility: visible;', tabindex='-1', vspace='0', width='100%', title='+1')
+            .fb-like.fb_edge_widget_with_comment.fb_iframe_widget(data-href='http://coenraets.org/directory', data-send='false', data-layout='button_count', data-width='450', data-show-faces='false', data-action='recommend')
+              span
+                iframe#f201f1267.fb_ltr(name='f4e46c648', scrolling='no', style='border-width: initial; border-color: initial; overflow-x: hidden; overflow-y: hidden; height: 20px; width: 450px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-image: initial;', title='Like this content on Facebook.', src='http://www.facebook.com/plugins/like.php?action=recommend&api_key=131255884255&channel_url=https%3A%2F%2Fs-static.ak.fbcdn.net%2Fconnect%2Fxd_proxy.php%3Fversion%3D3%23cb%3Df1dc04c9f8%26origin%3Dhttp%253A%252F%252Fcoenraets.org%252Ff2ce44dda8%26relation%3Dparent.parent%26transport%3Dpostmessage&extended_social_context=false&href=http%3A%2F%2Fcoenraets.org%2Fdirectory&layout=button_count&locale=en_US&node_type=link&sdk=joey&send=false&show_faces=false&width=450')
+            //
+               Facebook 
+            #fb-root.fb_reset
+              div(style='position: absolute; top: -10000px; height: 0px; width: 0px;')
+                div
+                  iframe#f384dc61d4.FB_UI_Hidden(name='fbcb2513c', scrolling='no', style='border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; border-image: initial; overflow-x: hidden; overflow-y: hidden; height: 240px; width: 575px;', src='http://www.facebook.com/dialog/oauth?api_key=131255884255&app_id=131255884255&channel_url=https%3A%2F%2Fs-static.ak.fbcdn.net%2Fconnect%2Fxd_proxy.php%3Fversion%3D3%23cb%3Df170c4066c%26origin%3Dhttp%253A%252F%252Fcoenraets.org%252Ff2ce44dda8%26relation%3Dparent.parent%26transport%3Dpostmessage&client_id=131255884255&display=none&domain=coenraets.org&locale=en_US&origin=1&redirect_uri=https%3A%2F%2Fs-static.ak.fbcdn.net%2Fconnect%2Fxd_proxy.php%3Fversion%3D3%23cb%3Df2bec36d64%26origin%3Dhttp%253A%252F%252Fcoenraets.org%252Ff2ce44dda8%26relation%3Dparent%26transport%3Dpostmessage%26frame%3Df384dc61d4&response_type=token%2Csigned_request%2Ccode&sdk=joey')
+
